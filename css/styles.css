@@ -17,24 +17,65 @@ background: #ECECEC;
 /* вторичный белый цвет rgba(255, 255, 255, 0.6); */
 /* цвет акцента rgba(33, 150, 243, 1) */
 /* вторичный цвет фона  #F5F4FA;*/
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:rgba(33, 33, 33, 1);
+    --accent-color:#2196F3;
+    --primary-background-color:#FFFFFF;
+    -secondary-background-color:#F5F4FA;
+}
 body{
-    background-color:#FFFFFF;
-    color: #757575;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
     }
 
 /* Nav*/
 .nav-logo-begin{
-    color:rgba(33, 150, 243, 1);
+    color:var(--accent-color)
 
 }
 
 ul{list-style: none;}
 .nav-list .link{
-    color: rgba(33, 33, 33, 1);
+    color: var(--title-text-color)
     
 }
 
 .nav-list .link:hover,
 .nav-list .link:focus {
-    color:rgba(33, 150, 243, 1);
+    color:var(--accent-color)
+}
+
+.nav-list.link.current {
+    color:var(--accent-color)
+}
+
+/* hero */
+.hero{
+    background-color:#2F303A;
+
+}
+
+.hero-title{
+    color:rgba(255, 255, 255, 1);
+}
+
+.button{
+    color:#FFFFFF;
+    background-color:var(--accent-color);
+
+}
+/* section features*/
+
+.section-title{
+    color:var(--title-text-color);
+}
+
+.features-title{
+    color:var(--title-text-color);
+}
+
+/* section team */
+.name{
+    color:var(--title-text-color);
 }
