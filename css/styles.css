@@ -1,3 +1,40 @@
+/* font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+/* ;
+background: #2196F3;
+background: #000000;
+background: #2F303A;
+background: #FFFFFF99;
+background: #ECECEC;
+; */
+
+/* основной черный цвет #212121*/
+/* вторичный черный цвет #757575*/
+/* основной белый цвет #FFFFFF; */
+/* вторичный белый цвет rgba(255, 255, 255, 0.6); */
+/* цвет акцента rgba(33, 150, 243, 1) */
+/* вторичный цвет фона  #F5F4FA;*/
 body{
-    background-color:
+    background-color:#FFFFFF;
+    color: #757575;
+    }
+
+/* Nav*/
+.nav-logo-begin{
+    color:rgba(33, 150, 243, 1);
+
+}
+
+ul{list-style: none;}
+.nav-list .link{
+    color: rgba(33, 33, 33, 1);
+    
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color:rgba(33, 150, 243, 1);
 }
