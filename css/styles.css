@@ -18,6 +18,11 @@ background: #ECECEC;
 /* цвет акцента rgba(33, 150, 243, 1) */
 /* вторичный цвет фона  #F5F4FA;*/
 :root{
+    --main-font-family:Roboto,
+    sans-serif;
+    --secondary-font-family:Raleway
+    sans-serif;
+
     --primary-text-color:#757575;
     --title-text-color:rgba(33, 33, 33, 1);
     --accent-color:#2196F3;
@@ -27,6 +32,9 @@ background: #ECECEC;
 rgba(255, 255, 255, 1);
 }
 body{
+    font-family:var(--main-font-family),
+        font-size: 16px;
+    line-height: 1.18;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     }
@@ -62,10 +70,15 @@ ul{list-style: none;}
     color:var(--primary-white-color);
 }
 
-.button{
+.hero-button{
     color:var)--primary-white-color
     background-color:var(--accent-color);
+    }
 
+.hero-button:hover,
+.hero-button:focus{
+    background: rgba(33, 150, 243, 1);
+    
 }
 /* section features*/
 
@@ -88,13 +101,13 @@ ul{list-style: none;}
 
 }
 
-.button{
+.project-button{
     background-color:#F5F4FA;
     color:var(--title-text-color)
 
 }
-.button:hover,
-.button:focus{
+.project-button:hover,
+.project-button:focus {
     background-color:var(--accent-color);
     color: var(--primary-white-color)
 }
