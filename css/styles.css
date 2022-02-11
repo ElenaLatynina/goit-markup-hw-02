@@ -1,22 +1,3 @@
-/* font-family: 'Raleway',
-sans-serif;
-font-family: 'Roboto',
-sans-serif; */
-
-/* ;
-background: #2196F3;
-background: #000000;
-background: #2F303A;
-background: #FFFFFF99;
-background: #ECECEC;
-; */
-
-/* основной черный цвет #212121*/
-/* вторичный черный цвет #757575*/
-/* основной белый цвет #FFFFFF; */
-/* вторичный белый цвет rgba(255, 255, 255, 0.6); */
-/* цвет акцента rgba(33, 150, 243, 1) */
-/* вторичный цвет фона  #F5F4FA;*/
 :root{
     --main-font-family:Roboto,
     sans-serif;
@@ -166,12 +147,73 @@ ul{list-style: none;}
     line-height: 1.19;
     letter-spacing: 0.03em
 }
+
+/* footer */
+.footer{
+    background: #2F303A;
+}
+.footer-logo-begin{
+    font-family: var(--secondary-font-family);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color:var(--accent-color);
+    
+}
+
+.footer-logo-end {
+    font-family: var(--secondary-font-family);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-white-color);
+    
+}
+
+.address{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color:var(--primary-white-color)
+    
+
+}
+.footer-contacts{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus{
+    text-decoration: underline;
+}
+
 /* page portfolio */
 .project-name{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     color:var(--title-text-color);
 
 }
 
+.project-type{
+    font-size: 16px;
+    line-height:1.87;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color)
+
+}
 .project-button{
     background-color:#F5F4FA;
     color:var(--title-text-color);
@@ -184,4 +226,4 @@ ul{list-style: none;}
     color: var(--primary-white-color)
 }
 
-}
+
