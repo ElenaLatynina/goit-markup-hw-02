@@ -23,7 +23,6 @@ rgba(255, 255, 255, 1);
 .nav-logo{
     text-decoration: none;
     letter-spacing: 0.03em;
-
 }
 
 .nav-logo-begin{
@@ -40,7 +39,7 @@ rgba(255, 255, 255, 1);
     font-size: 26px;
     line-height: 1.19;
     
-    }
+}
 
 ul{list-style: none;}
 
@@ -64,7 +63,6 @@ ul{list-style: none;}
     color:var(--accent-color);
 }
 
-}
 .contacts-mail{
     font-family: var(--main-font-family);
     font-weight: 500;
@@ -168,7 +166,6 @@ ul{list-style: none;}
     color: var(--title-text-color);
 }
     
-
 .job{
 
     font-size: 16px;
@@ -179,6 +176,10 @@ ul{list-style: none;}
 /* footer */
 .footer{
     background: #2F303A;
+}
+
+.footer-logo{
+    text-decoration: none;
 }
 .footer-logo-begin{
     font-family: var(--secondary-font-family);
@@ -209,7 +210,6 @@ ul{list-style: none;}
     letter-spacing: 0.03em;
     color:var(--primary-white-color);
     
-
 }
 .footer-contacts{
     font-size: 14px;
@@ -225,26 +225,35 @@ ul{list-style: none;}
     text-decoration: underline;
 }
 
-/* page portfolio */
 .project-name{
+    font-family: var(--main-font-family);
     font-weight: 900;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
     color:var(--title-text-color);
-
 }
-
 .project-type{
+    font-family: var(--main-font-family);
+    font-weight: 400;
     font-size: 16px;
     line-height:1.87;
     letter-spacing: 0.03em;
-    color:var(--primary-text-color);
+
+    color: var(--primary-text-color);
 
 }
 .project-button{
-    background-color:#F5F4FA;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
     color:var(--title-text-color);
+    background-color:var(-secondary-background-color);
     cursor: pointer;
 
 }
