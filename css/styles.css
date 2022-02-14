@@ -71,7 +71,7 @@ ul{list-style: none;}
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration:none;
-    color:var(--primary-text-color)
+    color:var(--primary-text-color);
 
 }
 
@@ -88,7 +88,7 @@ ul{list-style: none;}
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration:none;
-    color:var(--primary-text-color)
+    color:var(--primary-text-color);
 }
 .contacts-phone:hover,
 .contacts-phone:focus{
@@ -105,11 +105,20 @@ ul{list-style: none;}
     font-size: 44px;
     line-height:1.36;
     text-align: center;
+    text-transform: uppercase;
     letter-spacing: 0.06em;
     color:var(--primary-white-color);
 }
 
 .hero-button{
+    font-family: var(--main-font-family);
+    font-weight:900;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     color:var(--primary-white-color);
     background-color:var(--accent-color);
     cursor:pointer;
@@ -139,6 +148,14 @@ ul{list-style: none;}
     color:var(--title-text-color);
 }
 
+.features-des{
+    font-style: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+
+}
 /* section team */
 .name{
     font-weight: 500;
@@ -151,7 +168,7 @@ ul{list-style: none;}
 .job{
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
 }
 
 /* footer */
