@@ -12,7 +12,7 @@
     --primary-white-color: 
 rgba(255, 255, 255, 1);
 }
-body{
+.body{
     font-family:var(--main-font-family);
     font-size: 16px;
     line-height: 1.18;
@@ -22,6 +22,8 @@ body{
 
 .nav-logo{
     text-decoration: none;
+    letter-spacing: 0.03em;
+
 }
 
 .nav-logo-begin{
@@ -38,8 +40,7 @@ body{
     font-size: 26px;
     line-height: 1.19;
     
-    
-}
+    }
 
 ul{list-style: none;}
 
@@ -148,7 +149,7 @@ ul{list-style: none;}
     color:var(--title-text-color);
 }
 
-.features-des{
+.features-desс{
     font-style: inherit;
     font-size: 14px;
     line-height: 1.71;
@@ -158,14 +159,18 @@ ul{list-style: none;}
 }
 /* section team */
 .name{
+    font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.18;
+    text-align: center;
     letter-spacing: 0.03em;
-    color:var(--title-text-color);
+    color: var(--title-text-color);
 }
+    
 
 .job{
+
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
