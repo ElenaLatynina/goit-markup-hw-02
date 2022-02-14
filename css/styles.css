@@ -13,51 +13,57 @@
 rgba(255, 255, 255, 1);
 }
 body{
-    font-family:var(--main-font-family),
-        font-size: 16px;
+    font-family:var(--main-font-family);
+    font-size: 16px;
     line-height: 1.18;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     }
+
+.nav-logo{
+    text-decoration: none;
+}
 
 .nav-logo-begin{
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color:var(--accent-color)
+    color:var(--accent-color);
+   
 }
 .nav-logo-end {
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--primary-text-color);
-
+    
+    
 }
 
 ul{list-style: none;}
 
-.nav-list .link{
+.nav-list-link{
     font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    text-decoration:none
+    text-decoration:none;
     
 }
 
 .nav-list .link:hover,
 .nav-list .link:focus {
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 
-.nav-list.link.current {
-    color:var(--accent-color)
+.nav-list-link.current {
+    color:var(--accent-color);
 }
 
+}
 .contacts-mail{
     font-family: var(--main-font-family);
     font-weight: 500;
@@ -179,7 +185,7 @@ ul{list-style: none;}
     font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color:var(--primary-white-color)
+    color:var(--primary-white-color);
     
 
 }
@@ -211,7 +217,7 @@ ul{list-style: none;}
     font-size: 16px;
     line-height:1.87;
     letter-spacing: 0.03em;
-    color:var(--primary-text-color)
+    color:var(--primary-text-color);
 
 }
 .project-button{
@@ -223,7 +229,7 @@ ul{list-style: none;}
 .project-button:hover,
 .project-button:focus {
     background-color:var(--accent-color);
-    color: var(--primary-white-color)
+    color: var(--primary-white-color);
 }
 
 
