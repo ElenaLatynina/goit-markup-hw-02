@@ -21,18 +21,13 @@
     }
 
 .nav{
-    font-weight: 900;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
     text-decoration: none;
-    letter-spacing: 0.03em;
-    
 }
 
 .nav-logo{
     font-family: var(--secondary-font-family);
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -62,6 +57,7 @@ ul{list-style: none;}
 .nav-list-link:hover,
 .nav-list-link:focus {
     color:var(--accent-color);
+   
 }
 
 .nav-list-link.current {
@@ -80,9 +76,8 @@ ul{list-style: none;}
 
 .contacts-mail:hover,
 .contacts-mail:focus{
-     color: var(--accent-color);
-     text-decoration: underline;
-
+    color: var(--accent-color);
+    
 }
 .contacts-phone{
     font-weight: 500;
@@ -94,7 +89,7 @@ ul{list-style: none;}
 }
 .contacts-phone:hover,
 .contacts-phone:focus{
-    text-decoration: underline;
+    color: var(--accent-color);
 }
 
 /* hero */
@@ -134,13 +129,16 @@ ul{list-style: none;}
 /* section features*/
 
 .section-title{
-    font-weight: 900;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    color:var(--title-text-color);
-    }
+    letter-spacing: 0.03em;
 
+    color:var(--title-text-color);
+}
+  
+    
 .features-title{
     font-weight: 700;
     font-size: 14px;
@@ -183,6 +181,10 @@ ul{list-style: none;}
 /* footer */
 .footer{
     font-family: var(--secondary-font-family);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     background: #2F303A;
 }
 
@@ -190,21 +192,11 @@ ul{list-style: none;}
     text-decoration: none;
 }
 .footer-logo-begin{
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-
     color:var(--accent-color);
     
 }
 
 .footer-logo-end {
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-
     color: var(--primary-white-color);
     
 }
@@ -219,7 +211,6 @@ ul{list-style: none;}
 }
 .footer-contacts{
     font-size: 14px;
-    font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -233,7 +224,7 @@ ul{list-style: none;}
 
 .project-name{
     font-family: var(--main-font-family);
-    font-weight: 900;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -251,7 +242,7 @@ ul{list-style: none;}
 
 }
 .project-button{
-    font-family: var(--main-font-family);
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
